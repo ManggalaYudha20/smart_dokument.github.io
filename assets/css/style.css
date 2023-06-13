@@ -1,0 +1,292 @@
+/* LOGIN */
+.bg-img {
+  background-image: url(../img/background.jpg?v=);
+  background-size: cover;
+}
+
+/* .box-form {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.075) !important;
+} */
+
+.my-form input {
+  padding: 20px;
+  background-color: transparent;
+  padding-bottom: 25px;
+  border: none;
+  padding-left: 0;
+  border-radius: 0px;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+
+.my-form input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #177dff;
+}
+
+.my-form button {
+  padding: 8px;
+}
+
+.my-form table {
+  width: 100% !important;
+}
+
+.icon-input {
+  text-align: center;
+  font-size: 20px;
+  color: #555;
+}
+
+.my-form table tr {
+  margin-bottom: 10px !important;
+}
+
+
+/* CARD ACTIVITY */
+.card-activity-feedback {
+  height: 170px !important;
+  overflow-x: auto;
+}
+
+.card-all-account {
+  height: 220px !important;
+  overflow-x: auto;
+}
+
+.btn-plus-round {
+  margin-right: 10px;
+}
+
+/* SCROLL BAR */
+.card-all-account::-webkit-scrollbar,
+.card-activity-feedback::-webkit-scrollbar {
+  background-color: #eee;
+  border-radius: 5px;
+  width: 8px;
+}
+
+.card-all-account::-webkit-scrollbar-thumb,
+.card-activity-feedback::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  width: 8px;
+  border-radius: 5px;
+}
+
+/* ACCOUNT SETTINGS */
+.card-account li {
+  background-color: #eee;
+  text-align: center;
+}
+
+/* img profile */
+.card-profile {
+  padding: 0px !important;
+}
+
+.banner-profile {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.banner-profile img {
+  height: 150px;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.img-profile {
+  margin-top: -70px;
+  text-align: center;
+}
+
+.img-profile img {
+  margin-top: 20px;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.id-profile {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.level-profile {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.upload-img-profile table {
+  width: 250px;
+  margin: auto;
+}
+
+.upload-img-profile form {
+  padding: 20px 30px 20px 30px;
+}
+
+.upload-img-profile table input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upload-img-profile table button {
+  background-color: #177dff;
+  width: 100%;
+  width: 50px;
+  color: white;
+  margin-left: -5px;
+  border-radius: 0px 50px 50px 0px;
+  padding: 11px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-img-profile table button:hover {
+  background-color: #0e63d1;
+}
+
+
+.upload-img {
+  color: #444;
+  border-radius: 50px 0px 0px 50px;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.upload-img::-webkit-file-upload-button {
+  background-color: #177dff;
+  display: none;
+}
+
+.upload-img::before {
+  content: 'Ganti foto profil ';
+  display: inline-block;
+  background-color: #177dff;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+
+}
+
+.upload-img:hover::before,
+.upload-img:active::before {
+  background-color: #1575f3;
+
+}
+
+
+/* CARD RIGHT */
+.data-profile span {
+  border: none;
+  padding-left: 0px;
+}
+
+.data-account input {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.data-account button {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.form-group-feedback {
+  text-align: center;
+}
+
+/* STYLE IMG SIZE*/
+.form-img img,
+.table-photo img,
+.modal-delete img {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #177cff1f;
+  height: 50px;
+}
+
+.btn-cancel {
+  border-radius: 10px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.btn-cancel:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #ccc;
+}
+
+
+/* filer agenda */
+.filter-agenda input {
+  display: block;
+  padding: 8px;
+  font-size: 16px;
+  margin-right: -10px;
+  border-radius: 50px;
+  background-color: #eee !important;
+  cursor: pointer;
+  margin-left: -20px;
+  margin-right: 20px !important;
+}
+
+/* NOTIFICATION */
+.container-notification {
+  margin-bottom: 20px;
+}
+
+.icon-notification {
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.description-notification {
+  margin-left: 50px;
+}
+
+.description-notification span {
+  margin-top: -15px;
+  font-size: 12px;
+  display: block;
+  color: #888;
+}
+
+.description-notification a {
+  background-color: #177cff2f;
+  border: 1px solid #1575f3;
+  font-size: 12px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #1575f3;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.description-notification a:hover {
+  background-color: #177cff5b;
+  text-decoration: none;
+}
+
+/* VERSION APP */

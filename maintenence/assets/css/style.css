@@ -1,0 +1,22 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 150px auto;
+
+}
+
+.img-fix {
+  text-align: center;
+}
+
+.img-fix img {
+  width: 400px;
+}
+
+.img-fix h2 {
+  margin: auto;
+  max-width: 700px;
+}

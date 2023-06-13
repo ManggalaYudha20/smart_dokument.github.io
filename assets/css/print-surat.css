@@ -1,0 +1,208 @@
+@font-face {
+  font-family: signatura;
+  src: url('../fonts/Signatura Monoline.ttf')format('truetype');
+}
+
+/* SURAT DISPOSISI */
+.container-surat {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.kop-surat img {
+  width: 80px;
+  margin-top: 10px;
+  margin-left: -400px;
+  position: absolute;
+}
+
+.kop-surat {
+  text-align: center;
+}
+
+.kop-surat h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.kop-surat h1 {
+  margin-top: -10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 40px;
+}
+
+.kop-surat p {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-top: -10px;
+}
+
+.hr-kop-surat {
+  border: 1px solid black;
+  margin: auto;
+}
+
+/* konten-surat */
+.konten-surat {
+  width: 100%;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title-surat {
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+}
+
+.konten-surat table {
+  width: 100%;
+  color: black;
+}
+
+.konten-surat table td {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.table-no-border td {
+  font-family: 'Times New Roman', Times, serif;
+  border: none !important;
+}
+
+.td-left {
+  display: block;
+  width: 100% !important;
+  margin-left: -100px;
+}
+
+.td-sifat {
+  width: 100%;
+}
+
+.check-sifat {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+}
+
+
+.fas {
+  color: transparent;
+}
+
+.perihal-surat {
+  height: 150px;
+}
+
+.perihal-surat td {
+  font-family: 'Times New Roman', Times, serif;
+  border: none !important;
+}
+
+.format-surat {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.check-dengan-hormat {
+  border: none !important;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+}
+
+.catatan-surat td {
+  font-family: 'Times New Roman', Times, serif;
+  border: none !important;
+}
+
+.catatan {
+  font-family: signatura;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.ttd-surat td {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: none !important;
+}
+
+.ttd-surat {
+  margin-top: 50px;
+  display: inline-block;
+  width: 500px !important;
+  float: right;
+  text-align: center;
+}
+
+.title-ttd {
+  margin-top: 20px;
+}
+
+.nama-ttd {
+  margin-top: 60px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+/* FONT AWESOME CHANGE STYLE */
+.fa-2,
+.fa-1,
+.fa-a {
+  border: 1px solid #aaa;
+  padding: 2px;
+  width: 20px;
+  text-align: center;
+  background-color: #858796;
+  color: #eaeaea;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+
+@media print {
+
+  .card-header {
+    display: none !important;
+  }
+}
+
+
+/* SURAT AGENDA */
+.konten-agenda-surat table {
+  width: 100%;
+}
+
+.konten-agenda-surat table th,
+.konten-agenda-surat table td {
+  text-align: center;
+  color: #000;
+}
+
+.konten-agenda-surat h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.konten-agenda-surat h3 {
+  color: black;
+  margin-bottom: 20px;
+}

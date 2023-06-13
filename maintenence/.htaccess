@@ -1,0 +1,27 @@
+#menghilangkan_ekstensi_php
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+
+#error_document
+ErrorDocument 400 https://arsip-baplitbang-bonebolango.com/
+ErrorDocument 403 https://arsip-baplitbang-bonebolango.com/
+ErrorDocument 404 https://arsip-baplitbang-bonebolango.com/
+ErrorDocument 500 https://arsip-baplitbang-bonebolango.com/
+
+<Files ~"^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+
+
+#caching_(kecepatan)
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
